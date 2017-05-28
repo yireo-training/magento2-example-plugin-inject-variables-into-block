@@ -1,0 +1,19 @@
+<?php
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<div class="absolute-footer" style="text-align:center;">
+    <p>
+        [Yireo_ExamplePluginInjectVariablesIntoBlocks]: <?php echo $block->getNameInLayout() ?>
+    </p>
+    <p>
+        <?php if (!$customer->isEmpty()) echo 'Customer is logged in'; ?>
+    </p>
+    <?php /* @escapeNotVerified */
+    echo $block->getMiscellaneousHtml(); ?>
+</div>
