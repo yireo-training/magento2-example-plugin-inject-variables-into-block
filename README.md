@@ -4,7 +4,7 @@ Example Magento 2 module showing how to use an interceptor to extend Block class
 ## Installation
 To install use the following composer command:
 
-    composer require yireo-training/magento2-example-plugin-inject-variables-into-block
+    composer require yireo-training/magento2-example-plugin-inject-variables-into-block:dev-master
 
 Next enable the module:
 
